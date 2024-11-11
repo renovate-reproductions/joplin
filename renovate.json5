@@ -21,7 +21,7 @@
 	// suddenly dump 20 pull requests. And this intefer with our GitHub Action to 
 	// automerge PRs, not to mention that they all end up conflicting with each others
 	// if they are created at the same time.
-	"prConcurrentLimit": 4,
+	"prConcurrentLimit": 0,
 
 	"prHourlyLimit": 0,
 
