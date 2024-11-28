@@ -18,7 +18,7 @@
     "@joplin/fork-htmlparser2": "^4.1.52",
     "datauri": "4.1.0",
     "fs-extra": "11.2.0",
-    "html-entities": "1.4.0"
+    "html-entities": "2.5.2"
   },
   "devDependencies": {
     "@types/fs-extra": "11.0.4"
