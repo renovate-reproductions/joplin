@@ -6955,9 +6955,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@expo/cli@npm:0.18.28":
-  version: 0.18.28
-  resolution: "@expo/cli@npm:0.18.28"
+"@expo/cli@npm:0.18.29":
+  version: 0.18.29
+  resolution: "@expo/cli@npm:0.18.29"
   dependencies:
     "@babel/runtime": ^7.20.0
     "@expo/code-signing-certificates": 0.0.5
@@ -7038,7 +7038,7 @@ __metadata:
     ws: ^8.12.1
   bin:
     expo-internal: build/bin/cli
-  checksum: d7725d4cbb05d19321aee878357b828a838dfe6ab5b70112cd3e4a78f95be8e2d0e6e7d395e1bacd3b22bc62d44cb458c7cbc2484685c5c98650b1edeec4de2e
+  checksum: ce86257df20eeefe140a743acfc9644ba2cda95f3d93077f97d1f78d3dcbdc0086ed8d54d14bf8340ddd57e7b9380a9a4c0ebe4ab3a0507007c314ec4d278f77
   languageName: node
   linkType: hard
 
@@ -8294,7 +8294,7 @@ __metadata:
     crypto-browserify: 3.12.0
     deprecated-react-native-prop-types: 5.0.0
     events: 3.3.0
-    expo: 51.0.26
+    expo: 51.0.31
     expo-camera: 15.0.16
     fast-deep-equal: 3.1.3
     fs-extra: 11.2.0
@@ -16389,7 +16389,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"babel-preset-expo@npm:~11.0.13":
+"babel-preset-expo@npm:~11.0.14":
   version: 11.0.15
   resolution: "babel-preset-expo@npm:11.0.15"
   dependencies:
@@ -23949,52 +23949,54 @@ __metadata:
   languageName: node
   linkType: hard
 
-"expo-modules-autolinking@npm:1.11.1":
-  version: 1.11.1
-  resolution: "expo-modules-autolinking@npm:1.11.1"
+"expo-modules-autolinking@npm:1.11.2":
+  version: 1.11.2
+  resolution: "expo-modules-autolinking@npm:1.11.2"
   dependencies:
     chalk: ^4.1.0
     commander: ^7.2.0
     fast-glob: ^3.2.5
     find-up: ^5.0.0
     fs-extra: ^9.1.0
+    require-from-string: ^2.0.2
+    resolve-from: ^5.0.0
   bin:
     expo-modules-autolinking: bin/expo-modules-autolinking.js
-  checksum: 45936fe2d4a38b44477875f3eafd915f62035ff6e6abde1d36c3dc4fac087f284c5458b5edc3c235c7a9d3b525efd5886fe43432f565da135c87a5bf1b4e07fd
+  checksum: cbb6725ad9980db7631b2198a4e7153e25f25c096a3dae03a8e75be3dee4147a6b2a29a0ae80b09a570e71be1239fb947e48595f7a7be14b9dbcf57805e733d4
   languageName: node
   linkType: hard
 
-"expo-modules-core@npm:1.12.20":
-  version: 1.12.20
-  resolution: "expo-modules-core@npm:1.12.20"
+"expo-modules-core@npm:1.12.23":
+  version: 1.12.23
+  resolution: "expo-modules-core@npm:1.12.23"
   dependencies:
     invariant: ^2.2.4
-  checksum: 1f48d4b89bb00463c622939f3ed272224011dc39917f9624c8476373e2d1e936667ca8e709a37dbafa51178dc073b1dfebd9b5e9b709335966f055e20c9710b1
+  checksum: 80fb59db4505d381be41c67da0fae4e2b6e3baf143fc613cbfe97bc31de9def668c5d7fee648b17f453e8f65dddf4c2fbfd115a696cb9b6611225feb9047576a
   languageName: node
   linkType: hard
 
-"expo@npm:51.0.26":
-  version: 51.0.26
-  resolution: "expo@npm:51.0.26"
+"expo@npm:51.0.31":
+  version: 51.0.31
+  resolution: "expo@npm:51.0.31"
   dependencies:
     "@babel/runtime": ^7.20.0
-    "@expo/cli": 0.18.28
+    "@expo/cli": 0.18.29
     "@expo/config": 9.0.3
     "@expo/config-plugins": 8.0.8
     "@expo/metro-config": 0.18.11
     "@expo/vector-icons": ^14.0.0
-    babel-preset-expo: ~11.0.13
+    babel-preset-expo: ~11.0.14
     expo-asset: ~10.0.10
     expo-file-system: ~17.0.1
     expo-font: ~12.0.9
     expo-keep-awake: ~13.0.2
-    expo-modules-autolinking: 1.11.1
-    expo-modules-core: 1.12.20
+    expo-modules-autolinking: 1.11.2
+    expo-modules-core: 1.12.23
     fbemitter: ^3.0.0
     whatwg-url-without-unicode: 8.0.0-3
   bin:
     expo: bin/cli
-  checksum: b2a0bec71c4903b6a0d14a9793070fd14439cb347a41254acdfcd86568f159483c37c30c8333b603cc3feb24609f02147a92448df71f8467153baf18a6f5451d
+  checksum: 5fbdeca01309bbb56e030ddf3b2fdef7052e44be3dff68b2e286b7f4004420705c73e573bd1581e4e68c6fdb3d46b4792d7f4cc3e59bb51341e28a89f153bccd
   languageName: node
   linkType: hard
 
