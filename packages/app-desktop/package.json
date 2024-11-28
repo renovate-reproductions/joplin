@@ -154,7 +154,7 @@
   "dependencies": {
     "@electron/notarize": "2.3.2",
     "@electron/remote": "2.1.2",
-    "@fortawesome/fontawesome-free": "5.15.4",
+    "@fortawesome/fontawesome-free": "6.5.2",
     "@joeattardi/emoji-button": "4.6.4",
     "@joplin/editor": "~3.2",
     "@joplin/lib": "~3.2",
