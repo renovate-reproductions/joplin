@@ -8515,7 +8515,7 @@ __metadata:
     async-mutex: 0.5.0
     base-64: 1.0.0
     base64-stream: 1.0.0
-    builtin-modules: 3.3.0
+    builtin-modules: 4.0.0
     canvas: 2.11.2
     chokidar: 3.6.0
     clean-html: 1.5.0
@@ -17329,7 +17329,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"builtin-modules@npm:3.3.0, builtin-modules@npm:^3.3.0":
+"builtin-modules@npm:4.0.0":
+  version: 4.0.0
+  resolution: "builtin-modules@npm:4.0.0"
+  checksum: cea28dd8fa3060d39bee0f3e9f141987ac99d2dd7913c2fa15eb34a98372399f3be3b1bf1f849790ecad602d52e57d45a9c54bcde28c0bbf25bfe947ca8ffe55
+  languageName: node
+  linkType: hard
+
+"builtin-modules@npm:^3.3.0":
   version: 3.3.0
   resolution: "builtin-modules@npm:3.3.0"
   checksum: db021755d7ed8be048f25668fe2117620861ef6703ea2c65ed2779c9e3636d5c3b82325bd912244293959ff3ae303afa3471f6a15bf5060c103e4cc3a839749d
