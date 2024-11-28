@@ -8738,7 +8738,7 @@ __metadata:
     jsdom: 24.1.1
     knex: 3.1.0
     koa: 2.15.3
-    ldapts: 7.1.0
+    ldapts: 7.1.1
     markdown-it: 13.0.2
     mustache: 4.2.0
     node-cron: 3.0.3
@@ -20815,7 +20815,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"debug@npm:~4.3.5, debug@npm:~4.3.6":
+"debug@npm:~4.3.6":
   version: 4.3.7
   resolution: "debug@npm:4.3.7"
   dependencies:
@@ -31244,16 +31244,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ldapts@npm:7.1.0":
-  version: 7.1.0
-  resolution: "ldapts@npm:7.1.0"
+"ldapts@npm:7.1.1":
+  version: 7.1.1
+  resolution: "ldapts@npm:7.1.1"
   dependencies:
     "@types/asn1": ">=0.2.4"
     asn1: ~0.2.6
-    debug: ~4.3.5
+    debug: ~4.3.6
     strict-event-emitter-types: ~2.0.0
     uuid: ~10.0.0
-  checksum: 84d280a158e0315e9ee69f9d87381b57ef2ba64eb9d43a2eab922b1bb0b455224b6aaa1fc7cca89bf8dd1ed8ce22482b75883440758f411bce0d6ab19cdb9692
+    whatwg-url: ~14.0.0
+  checksum: 4baa96a6b31307f91fab94039e71d0e7cec0760df0e17af33a897190167b77568fd86e81710535ce2154c682289c49cae0cf6bdccf1fa8eb788bd2944c30c1e7
   languageName: node
   linkType: hard
 
@@ -48142,7 +48143,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"whatwg-url@npm:^14.0.0":
+"whatwg-url@npm:^14.0.0, whatwg-url@npm:~14.0.0":
   version: 14.0.0
   resolution: "whatwg-url@npm:14.0.0"
   dependencies:
