@@ -15054,7 +15054,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ansi-styles@npm:^3.0.0, ansi-styles@npm:^3.2.0, ansi-styles@npm:^3.2.1":
+"ansi-styles@npm:^3.2.0, ansi-styles@npm:^3.2.1":
   version: 3.2.1
   resolution: "ansi-styles@npm:3.2.1"
   dependencies:
@@ -17932,7 +17932,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chalk@npm:^1.0.0, chalk@npm:^1.1.3":
+"chalk@npm:^1.1.3":
   version: 1.1.3
   resolution: "chalk@npm:1.1.3"
   dependencies:
@@ -17959,7 +17959,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chalk@npm:~5.3.0":
+"chalk@npm:^5.3.0, chalk@npm:~5.3.0":
   version: 5.3.0
   resolution: "chalk@npm:5.3.0"
   checksum: 623922e077b7d1e9dedaea6f8b9e9352921f8ae3afe739132e0e00c275971bdd331268183b2628cf4ab1727c45ea1f28d7e24ac23ce1db1eb653c414ca8a5a80
@@ -18280,13 +18280,6 @@ __metadata:
     parent-module: ^2.0.0
     resolve-from: ^5.0.0
   checksum: 4931f0c461f5d7b9b79f62c2d1bc31c37f7f1d33b4e95eef7080a83955c0374f4c180f5a96cc4d63bbefc64a9aa5d12b155641109e8e489dfa50fd5820e5101f
-  languageName: node
-  linkType: hard
-
-"cli-boxes@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "cli-boxes@npm:1.0.0"
-  checksum: 101cfd6464a418a76523c332665eaf0641522f30ecc2492de48263ada6b0852333b2ed47b2998ddda621e7008471c51f597f813be798db237c33ba45b27e802a
   languageName: node
   linkType: hard
 
@@ -22236,6 +22229,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"emoji-regex@npm:^10.2.1":
+  version: 10.4.0
+  resolution: "emoji-regex@npm:10.4.0"
+  checksum: a6d9a0e454829a52e664e049847776ee1fff5646617b06cd87de7c03ce1dfcce4102a3b154d5e9c8e90f8125bc120fc1fe114d523dddf60a8a161f26c72658d2
+  languageName: node
+  linkType: hard
+
 "emoji-regex@npm:^10.3.0":
   version: 10.3.0
   resolution: "emoji-regex@npm:10.3.0"
@@ -25445,7 +25445,7 @@ __metadata:
     slugify: 1.6.6
     ts-node: 10.9.2
     yeoman-generator: 5.10.0
-    yosay: 2.0.2
+    yosay: 3.0.0
   languageName: unknown
   linkType: soft
 
@@ -32712,6 +32712,13 @@ __metadata:
   version: 0.2.0
   resolution: "memory-cache@npm:0.2.0"
   checksum: 255c87fec360ce06818ca7aeb5850d798e14950a9fcea879d88e1f8d1f4a6cffb8ed16da54aa677f5ec8e47773fbe15775a1cdf837ac190e17e9fb4b71e87bee
+  languageName: node
+  linkType: hard
+
+"meow@npm:^12.1.1":
+  version: 12.1.1
+  resolution: "meow@npm:12.1.1"
+  checksum: a6f3be85fbe53430ef53ab933dd790c39216eb4dbaabdbef593aa59efb40ecaa417897000175476bc33eed09e4cbce01df7ba53ba91e9a4bd84ec07024cb8914
   languageName: node
   linkType: hard
 
@@ -43559,7 +43566,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"string-width@npm:^2.0.0, string-width@npm:^2.1.0, string-width@npm:^2.1.1":
+"string-width@npm:^2.1.0, string-width@npm:^2.1.1":
   version: 2.1.1
   resolution: "string-width@npm:2.1.1"
   dependencies:
@@ -43588,6 +43595,17 @@ __metadata:
     emoji-regex: ^9.2.2
     strip-ansi: ^7.0.1
   checksum: 7369deaa29f21dda9a438686154b62c2c5f661f8dda60449088f9f980196f7908fc39fdd1803e3e01541970287cf5deae336798337e9319a7055af89dafa7193
+  languageName: node
+  linkType: hard
+
+"string-width@npm:^6.1.0":
+  version: 6.1.0
+  resolution: "string-width@npm:6.1.0"
+  dependencies:
+    eastasianwidth: ^0.2.0
+    emoji-regex: ^10.2.1
+    strip-ansi: ^7.0.1
+  checksum: 8aefb456a230c8d7fe254049b1b2d62603da1a3b6c7fc9f3332f6779583cc1c72653f9b6e4cd0c1c92befee1565d4a0a7542d09ba4ceb6d96af02fbd8425bb03
   languageName: node
   linkType: hard
 
@@ -44383,16 +44401,6 @@ __metadata:
   version: 4.0.3
   resolution: "taboverride@npm:4.0.3"
   checksum: 0383191561412ef2e199cc5439578f4bb2c4802402cb47b6012fc7d6485d3507e057a414411a7b10af34ae32919e4508812e4c77cf30834d3e306d9e9ef3bb6a
-  languageName: node
-  linkType: hard
-
-"taketalk@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "taketalk@npm:1.0.0"
-  dependencies:
-    get-stdin: ^4.0.1
-    minimist: ^1.1.0
-  checksum: b9a6ae2d6e41573a18958b7ac76ab89a6f703a3abfb24fc1613171bece8b6bb76e68fa39da6077ed6cac22d0d39530e40e9078aea93f3cf9285f48b05e046a2b
   languageName: node
   linkType: hard
 
@@ -49105,22 +49113,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"yosay@npm:2.0.2":
-  version: 2.0.2
-  resolution: "yosay@npm:2.0.2"
+"yosay@npm:3.0.0":
+  version: 3.0.0
+  resolution: "yosay@npm:3.0.0"
   dependencies:
-    ansi-regex: ^2.0.0
-    ansi-styles: ^3.0.0
-    chalk: ^1.0.0
-    cli-boxes: ^1.0.0
+    ansi-regex: ^6.0.1
+    ansi-styles: ^6.2.1
+    chalk: ^5.3.0
+    cli-boxes: ^3.0.0
+    meow: ^12.1.1
     pad-component: 0.0.1
-    string-width: ^2.0.0
-    strip-ansi: ^3.0.0
-    taketalk: ^1.0.0
-    wrap-ansi: ^2.0.0
+    string-width: ^6.1.0
+    strip-ansi: ^7.1.0
+    wrap-ansi: ^8.1.0
   bin:
     yosay: cli.js
-  checksum: 7e0220ef1321a9f0db4632fb564ff0bad66523bd22bb5cd6435886145bba284a4c1f651f51d629f4a904c79b0bbf13940fee1e127746f9f20b3e5eae8336c6cb
+  checksum: ec42aca27174ea7cad5e3cbc90f9c9ad93d0028c201d06af5196e465369b3c8a5467b76971825f94c38555c457652c8a9b690111255e08997db7e96d63cbea74
   languageName: node
   linkType: hard
 
