@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "@aws-sdk/client-s3": "3.296.0",
-    "@fortawesome/fontawesome-free": "5.15.4",
+    "@fortawesome/fontawesome-free": "6.5.2",
     "@joplin/lib": "~3.2",
     "@joplin/renderer": "~3.2",
     "@joplin/utils": "~3.2",
