@@ -8482,7 +8482,7 @@ __metadata:
     "@types/fs-extra": 11.0.4
     datauri: 4.1.0
     fs-extra: 11.2.0
-    html-entities: 1.4.0
+    html-entities: 2.5.2
   languageName: unknown
   linkType: soft
 
@@ -8529,7 +8529,7 @@ __metadata:
     form-data: 4.0.0
     fs-extra: 11.2.0
     hpagent: 1.2.0
-    html-entities: 1.4.0
+    html-entities: 2.5.2
     html-minifier: 4.0.0
     image-data-uri: 2.0.1
     immer: 7.0.15
@@ -8672,7 +8672,7 @@ __metadata:
     font-awesome-filetypes: 2.1.0
     fs-extra: 11.2.0
     highlight.js: 11.10.0
-    html-entities: 1.4.0
+    html-entities: 2.5.2
     jest: 29.7.0
     jest-environment-jsdom: 29.7.0
     json-stringify-safe: 5.0.1
@@ -8731,7 +8731,7 @@ __metadata:
     formidable: 2.1.2
     fs-extra: 11.2.0
     gulp: 4.0.2
-    html-entities: 1.4.0
+    html-entities: 2.5.2
     jest: 29.7.0
     jest-expect-message: 1.1.3
     jquery: 3.7.1
@@ -8789,7 +8789,7 @@ __metadata:
     gettext-parser: 7.0.1
     glob: 10.4.5
     gulp: 4.0.2
-    html-entities: 1.4.0
+    html-entities: 2.5.2
     jest: 29.7.0
     js-yaml: 4.1.0
     license-checker-rseidelsohn: 4.3.0
@@ -8834,7 +8834,7 @@ __metadata:
     "@rollup/plugin-node-resolve": 15.2.3
     "@rollup/plugin-replace": 5.0.7
     browserify: 14.5.0
-    html-entities: 1.4.0
+    html-entities: 2.5.2
     jsdom: 24.1.1
     rollup: 4.2.0
     standard: 17.1.0
@@ -8871,7 +8871,7 @@ __metadata:
     execa: 5.1.1
     fs-extra: 11.2.0
     glob: 10.4.5
-    html-entities: 1.4.0
+    html-entities: 2.5.2
     jest: 29.7.0
     markdown-it: 13.0.2
     moment: 2.30.1
@@ -27065,10 +27065,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"html-entities@npm:1.4.0":
-  version: 1.4.0
-  resolution: "html-entities@npm:1.4.0"
-  checksum: 4b73ffb9eead200f99146e4fbe70acb0af2fea136901a131fc3a782e9ef876a7cbb07dec303ca1f8804232b812249dbf3643a270c9c524852065d9224a8dcdd0
+"html-entities@npm:2.5.2, html-entities@npm:^2.4.0":
+  version: 2.5.2
+  resolution: "html-entities@npm:2.5.2"
+  checksum: b23f4a07d33d49ade1994069af4e13d31650e3fb62621e92ae10ecdf01d1a98065c78fd20fdc92b4c7881612210b37c275f2c9fba9777650ab0d6f2ceb3b99b6
   languageName: node
   linkType: hard
 
@@ -27076,13 +27076,6 @@ __metadata:
   version: 2.4.0
   resolution: "html-entities@npm:2.4.0"
   checksum: 25bea32642ce9ebd0eedc4d24381883ecb0335ccb8ac26379a0958b9b16652fdbaa725d70207ce54a51db24103436a698a8e454397d3ba8ad81460224751f1dc
-  languageName: node
-  linkType: hard
-
-"html-entities@npm:^2.4.0":
-  version: 2.5.2
-  resolution: "html-entities@npm:2.5.2"
-  checksum: b23f4a07d33d49ade1994069af4e13d31650e3fb62621e92ae10ecdf01d1a98065c78fd20fdc92b4c7881612210b37c275f2c9fba9777650ab0d6f2ceb3b99b6
   languageName: node
   linkType: hard
 
@@ -30274,7 +30267,7 @@ __metadata:
     file-type: 16.5.4
     fs-extra: 11.2.0
     gulp: 4.0.2
-    html-entities: 1.4.0
+    html-entities: 2.5.2
     jest: 29.7.0
     keytar: 7.9.0
     md5: 2.3.0
