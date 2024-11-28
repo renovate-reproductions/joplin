@@ -8727,7 +8727,7 @@ __metadata:
     bulma: 1.0.2
     bulma-prefers-dark: 0.1.0-beta.1
     compare-versions: 6.1.1
-    dayjs: 1.11.12
+    dayjs: 1.11.13
     formidable: 2.1.2
     fs-extra: 11.2.0
     gulp: 4.0.2
@@ -8782,7 +8782,7 @@ __metadata:
     "@types/node-fetch": 2.6.11
     "@types/yargs": 17.0.33
     compare-versions: 6.1.1
-    dayjs: 1.11.12
+    dayjs: 1.11.13
     execa: 4.1.0
     fs-extra: 11.2.0
     gettext-extractor: 3.8.0
@@ -8867,7 +8867,7 @@ __metadata:
     "@types/markdown-it": 13.0.9
     "@types/node-fetch": 2.6.11
     async-mutex: 0.5.0
-    dayjs: 1.11.12
+    dayjs: 1.11.13
     execa: 5.1.1
     fs-extra: 11.2.0
     glob: 10.4.5
@@ -20710,10 +20710,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dayjs@npm:1.11.12":
-  version: 1.11.12
-  resolution: "dayjs@npm:1.11.12"
-  checksum: 40a4f67c2df3af125ae0ddec68d3a6d806d3009a7414bf45479aaf82f1dd82f3e139e6642e72391abccc37488897830c56afcabb4c819014130d283644df8128
+"dayjs@npm:1.11.13":
+  version: 1.11.13
+  resolution: "dayjs@npm:1.11.13"
+  checksum: f388db88a6aa93956c1f6121644e783391c7b738b73dbc54485578736565c8931bdfba4bb94e9b1535c6e509c97d5deb918bbe1ae6b34358d994de735055cca9
   languageName: node
   linkType: hard
 
